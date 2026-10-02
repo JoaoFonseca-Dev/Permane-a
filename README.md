@@ -27,7 +27,7 @@ A marketing landing page for *Permaneça*, a book by Tatiana Fonseca, built as a
 
 ## Deployment
 
-`index.html` in this repository is the production build: CSS and JavaScript inlined, images embedded as base64, with the `/video` folder referenced for the one media asset that stays external by design (inlining video as base64 isn't practical at that file size). Pushing to `main` triggers an automatic Netlify redeploy.
+`index.html` in this repository is the production build: a single self-contained file with CSS and JavaScript inlined and all images embedded as base64. Pushing to `main` triggers an automatic Netlify redeploy.
 
 ## Author
 
